@@ -19,11 +19,11 @@ The environment is fully set up using terraform. Customisation to the content of
 2. To make changes to the s3 bucket name, edit the variable.tf file inside the terraform dir.
 
 ## What else  would do with your website, and how you would go about doing it if you had more time.
-1. Add in Cloudfront and creating custom error page/code - for caching purposes
+1. Add in Cloudfront and creating custom error page/code and security overhead such as access policy for the cloudfront and s3.
 2. Add in cname for custom domain
 3. Redirection rule in s3 such as redirecting to the error.html page for object that doesnt exist and changes to the error code.
 4. Terraform state file in s3 instead of local
-5. Add in more stlying to the content and interactive components
+5. Revamp the site using something liek angular 
 
 ## Alternative solutions that you could have taken but didn't and explain why.
 1. Hosting on ec2/ecs or other similar platform would completely be more expensive. Factoring in instance and storage cost along with scalability and security maintenance would not be feasible. 
